@@ -1,0 +1,146 @@
+
+    .brand{
+        height: 30px;
+    }
+    .slogo{
+        height: 50px;
+        float: left;
+    }
+
+
+    header{
+            background-color: olive;   
+            height: 80px;
+            color: white;
+        /*    border: 5px solid crimson;*/
+    }
+    .search{
+            height: 600px;
+            width: 100%;
+            background-size: 100%, 550px;
+            background-color: bisque;
+            background-image: url(foodwall.png);
+            background-repeat: no-repeat;
+            
+         } /*border: 20px dashed greenyellow;*/  
+    .logo{
+        height: 150px;
+        width: 150px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: 2%;
+        margin-left: 45%;
+
+    }
+    .logo>span{
+        margin-left: 33%;
+        margin-top: 2%;
+        position: absolute;
+        font-size: 30px;
+    }
+    .heading{
+        color: white;
+        font-size: 60px;
+        font-weight: bold;
+        margin-top: 15%;
+        margin-left: 30%;
+        position: absolute;
+    }
+    .dropdown{
+            height: 60px;
+            width: 50%;
+        /* border: 2px solid white;*/
+            margin-top: 21%;
+            margin-left: 30%;
+            position: absolute;
+    }
+    select{
+        height: 60px;
+        width: 40%;
+        font-size: 20px;
+        text-align: center;
+    }
+    #restselect{
+        width: 59%;
+    }
+    .quicksearch{
+        /*height: 400px;*/
+        width: 80%;
+        /*border:1px dotted blue;*/ 
+        margin-left: 10%;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        display: inline-block;
+    }
+    #quickheading{
+        font-size: 20px;
+        font-weight: bold;
+        color: bisque;
+        
+    
+    }
+    #quicksubheading{
+        font-size: 20px;
+        color:grey;
+        display: block;
+        line-height: 2;
+ 
+    }
+    .tileContainer{
+        height: 180px;
+        width: 30%;
+        margin-top: 3%;
+        margin-left: 2%;
+            /*border: 1px solid slateblue;*/
+        float: left;
+        box-shadow: 5px 8px 8px black;
+    }
+    .tileContainer1{
+        width: 52%;
+        float: left;
+    }
+    .tileContainer1>img {
+        height: 180px;
+        width:100%;
+        
+    }
+    .tileContainer2{
+        width: 45%;
+        float: left;
+        margin-left: 3%;
+        margin-top: 2%;
+    }
+    .componentheading{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 30%;
+    }
+    .componentsubheading{
+        text-align: center;
+    }
+    footer{
+        height: 140px;
+        /* border: 10px dotted slateblue; */
+        background-color: olive;   
+        color: white;
+        text-align: center; 
+    }
+    .footDiv{
+        float: left;
+        width: 30%;
+        border-right: 1px solid white;
+        /* text-align: center; */
+    
+    }
+.noborder{
+    border: none;
+}
+    .social{
+        float:right;
+    }
+    .alogo{
+        height: 25px;
+    }
+
